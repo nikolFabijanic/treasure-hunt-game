@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="cola_page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div><a href="points_shop.html"><img class="back_arrow" src="img/arrow.png" alt=""></a></div>
+    <img class="cola_img" src="img/cola.jpg" alt="">
+    <section class="prize_description">
+        <h1 class="prize_name">1x Small Soda</h1>
+        <p>Valid until 29-2-2024</p>
+        <p>Valid until 29-2-2024 - The Reward must be redeemed within the stated time limit. 
+            A Reward that is not scaned will return within an hour for later use. 1 type of 
+            Reward can be handed per order, a combination of different Rewards is possible.
+        </p>
+    </section>
+    <diV id="QR"><img src="img/qr.png" alt="qr code" ></div>
+    <section class="requirements">
+        <h2 class="req_title">Requirements:</h2>
+        <div class="req">
+            <div>
+                <img src="img/account.png" alt="">
+                <p>Log in/register</p>
+            </div>
+            <img src="img/green_check_mark.png" alt="">
+        </div>
+        <div class="req">
+            <div>
+                <img id="mcdonalds_icon" src="img/mcdonald icon.png" alt="">
+                <p>100 points</p>
+            </div>            
+            <img src="img/green_check_mark.png" alt="">
+        </div>
+    </section>
+    <div class="red"><button class="btn_redeem" id="btn_redeem">Redeem</button></div>
+    <div id="ogrooModel" class="redeem ogroobox" >
+        <div class="dialog">
+            <button onClick="overlay()" class="down_arrow" id="close"><img src="img/down-arrow.png" alt=""></button>
+            <h2>Activate now?</h2>
+            <img class="timer" src="img/time.png" alt="">
+            <div class="time">
+                <p>Redeem in</p>
+                <p>15 minutes</p>
+            </div>            
+            <button class="btn_redeem" id="btn_activate">Activate</button>
+            <p id="not_now">Not now</p>  
+        </div>
+    </div>   
+    <script src="js/main.js"></script>
+</body>
+</html>

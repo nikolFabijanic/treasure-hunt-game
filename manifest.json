@@ -1,0 +1,19 @@
+{
+    "short_name": "McDs",
+    "name": "Golden Goodies",
+    "manifest_version":3,
+    "version":"1.0",
+    "icons": [
+      {
+        "src": "img/monstera.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "../golden_goodies/index.html",
+    "scope": "../golden_goodies/index.html",
+    "background_color": "#293742",
+    "display": "standalone",
+    "theme_color": "#293742"
+}
